@@ -1,0 +1,22 @@
+{
+    "name": "smartyads/mvc-framework",
+    "description": "test project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "framework\\": "framework/",
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maksym Maksymenko",
+            "email": "m.maksymenko@smartyads.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-mbstring": "*"
+    }
+}
