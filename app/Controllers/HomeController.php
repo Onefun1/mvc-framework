@@ -10,7 +10,7 @@ class HomeController implements ControllerInterface
 
     private array $param;
 
-    public function __construct($param = NULL){
+    public function __construct($param = []){
         $this->param = $param;
     }
 
