@@ -5,8 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "framework\\": "framework/",
-            "app\\": "app/"
+            "framework\\": "framework",
+            "app\\": "app"
         }
     },
     "authors": [
@@ -17,6 +17,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-      "ext-mbstring": "*"
+      "ext-mbstring": "*",
+        "aigletter/interfaces": "dev-master",
+        "ext-pdo": "*"
     }
 }
